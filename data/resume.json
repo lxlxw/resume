@@ -1,0 +1,65 @@
+{
+    "avatar": "/resume/data/2.jpg",
+    "background_image": "https://9to5mac.files.wordpress.com/2014/08/yosemite-3.jpg?w=1200&h=&crop=1",
+    "basicinfo": {
+        "name": "林孝武",
+        "description": "xx",
+        "school": "闽南师范大学",
+        "profession": "计算机科学与技术",
+        "sex": "男",
+        "education" : "本科",
+        "workage": "2016届毕业",
+        "phone": "15260685800",
+        "email": "19168066@qq.com"
+    },
+    "social":[
+        {
+            "type": "github",
+            "link": "https://github.com/lxlxw",
+            "icon": ""
+        },
+        {
+            "type": "home",
+            "link": "http://lxlxw.me",
+            "icon": ""
+        }
+    ],
+    "socialExperiences": [
+        {
+            "name": "xxx",
+            "name_link": "xxx.com",
+            "description": "xxx"
+        }
+    ],
+    "InternExperiences": [
+        {
+            "name": "福建星网锐捷股份有限公司",
+            "name_link": "",
+            "title": "PHP开发工程师",
+            "icon": "",
+            "description": "平台服务接口开发、基础框架搭建和相关组件开发",
+            "time": "2015.04 - 至今",
+            "location": "福建 福州"
+        },
+        {
+            "name": "厦门帝网信息科技有限公司",
+            "name_link": "",
+            "title": "PHP开发工程师",
+            "icon": "",
+            "description": "p2p移动应用的服务端接口的设计与开发",
+            "time": "2014.01 - 2015.04",
+            "location": "福建 厦门"
+        }
+    ],
+    "ProjectExperience": [
+        {
+            "name": "k米",
+            "name_link": "ktvme.com",
+            "title": "微信 App",
+            "icon": "",
+            "description": "k米",
+            "time": "2015.04 - 至今",
+            "location": ""
+        }
+    ]
+}

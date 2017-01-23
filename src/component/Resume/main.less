@@ -1,0 +1,115 @@
+@import "basic";
+body{
+    font-family:  "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+@headerHeight: 170px;
+.resume-container {
+    animation-duration: 2s;
+    background-color: #fafafa;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.4);
+    padding-bottom: 30px;
+    .text-info{
+        color: #666;
+        margin: 8px;
+        i{
+            margin: 3px;
+        }
+    }
+
+
+    header {
+        background-color: black;
+        height: @headerHeight;
+        background-position: center;
+        position: relative;
+        img.avatar {
+            border: 4px solid whitesmoke;
+            border-radius: 50%;
+            width: 98px;
+            position: absolute;
+            bottom: -27%;
+            left: 42%;
+        }
+    }
+    .basicinfo {
+        background-color: #fafafa;
+        text-align: center;
+        padding-top: 60px;
+        .name{
+            font-size: 2rem;
+            color: #333;
+        }
+        .description{
+            font-size: 1.4rem;
+            color: #333;
+        }
+    }
+    .social{
+        text-align: center;
+        font-size: 2rem;
+        margin: 8px;
+        a.fa{
+            margin: 3px;
+        }
+        img{
+            width: 28px;
+            background-color: white;
+        }
+    }
+    .experiencelist{
+        color: #333;
+        margin: 35px 10%;
+        .experience-type{
+            text-align: center;
+            background-color: #eee;
+            border-radius: 26px;
+            width: 110px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            height: 28px;
+        }
+        .experience{
+            .item{
+                color: #999;
+                margin-top: 10px;
+                .name-title{
+                    margin: 4px;
+                    .name{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 1rem;
+                        i{
+                            margin-left: 4px;
+                            color: #999;
+                            font-size: 0.9rem;
+                        }
+                    }
+                    .title{
+                        font-size: 0.9rem;
+                        margin-top: 4px;
+                    }
+                }
+                .time-location{
+                    text-align: right;
+                    font-size: 0.9rem;
+                    margin: 4px;
+                }
+            }
+            .icon,
+            .icon img{
+                width: 46px;
+                height: 46px;
+                margin-right: 10px;
+            }
+            .icon img{
+                border: 2px solid #eee;
+            }
+            .description{
+                color: rgba(85, 85, 85, 0.9);
+                margin-top: 4px;
+                margin-left: 4px;
+                font-size: 0.92rem;
+            }
+        }
+    }
+}
